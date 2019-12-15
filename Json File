@@ -1,0 +1,91 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "am i drunk",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop",
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "Yes",
+                        "ten fourtyone",
+                        "one zero four one",
+                        "yes",
+                        "three seven"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "test"
+                    ]
+                },
+                {
+                    "name": "OneFourtyoneIntent",
+                    "slots": [],
+                    "samples": [
+                        "One Fourtyone",
+                        "Fourteen One",
+                        "One Four One"
+                    ]
+                },
+                {
+                    "name": "SevenHundredTwentysixIntent",
+                    "slots": [],
+                    "samples": [
+                        "SevenHundred TwentySix",
+                        "Seven TwentySix",
+                        "SeventyTwo Six",
+                        "Seven Two Six"
+                    ]
+                },
+                {
+                    "name": "ThirtyTwoIntent",
+                    "slots": [],
+                    "samples": [
+                        "Thirty Two",
+                        "ThirtyTwo is answer",
+                        "answer is ThirtyTwo",
+                        "ThreeTwo"
+                    ]
+                },
+                {
+                    "name": "ZeroIntent",
+                    "slots": [],
+                    "samples": [
+                        "zero",
+                        "answer is zero",
+                        "Zero is the answer"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
